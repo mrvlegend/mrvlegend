@@ -3,120 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite Things Showcase</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css"> <!-- Your custom styles -->
-    <script defer src="https://kit.fontawesome.com/47eafd82ac.js"></script>
+    <title>Play</title>
+    <link rel="shortcut icon" type="image/png" href="/img/media/favicon.png" />
+    <link rel="stylesheet" href="https://wow.truefriend.life/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://wow.truefriend.life/css/mycss.css">
+    <link rel="stylesheet" href="https://wow.truefriend.life/css/my-css4ads.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/47eafd82ac.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Favorite Showcase</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NX3TNSFB"></script>
+
+    <!-- Facebook Pixel -->
+    <script>
+        !function(f,b,e,v,n,t,s) {
+            if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '382976396637351');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=382976396637351&ev=PageView&noscript=1"
+    /></noscript>
+
+    <!-- OneSignal Push Notifications -->
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "11bb9994-cb91-4b14-9c2c-0c74245a4801",
+            });
+        });
+    </script>
+
+    <!-- Custom Scripts -->
+    <script>
+        function validate() {                
+            var audio=document.getElementById("mClick"); // sound play 
+            audio.play();
+            if ($.trim($("#player_name").val()) != "") {
+                var regex = /^[A-Za-z0-9 ]+$/;
+                var isValid = regex.test(document.getElementById("player_name").value);
+                if (!isValid) {
+                    $("#player_name").addClass("alertEmptyText");
+                    document.querySelector("p.text-danger").style.display="block";
+                    document.querySelector("p.text-danger").innerHTML="Special Characters[@,!.- etc not allowed]";
+                    return false;
+                } else {
+                    return true;
+                }
+            } else {
+                $("#player_name").addClass("alertEmptyText");
+                document.querySelector("p.text-danger").style.display="block";
+                document.querySelector("p.text-danger").innerHTML="Please Enter Your Name!";
+                return false;
+            }
+        }
+    </script>
+
+    <nav class="navbar navbar-dark py-0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#form-section">Submit</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#submissions-section">View Submissions</a>
-                </li>
+        <a class="navbar-brand" href="https://truefriend.life">
+            <div class="logoText">Friendship Quiz</div>
+        </a>
+        <div class="center">
+            <div><img src="https://wow.truefriend.life/img/media/lang2.png" /></div>
+            <select class="lang" id="Lselect" onchange="changeLang()">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item"><a class="nav-link" href="https://truefriend.life">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://truefriend.life/about-us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://truefriend.life/social.html">Social</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://truefriend.life/contact-us.html">Contact Us</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <!-- Form Section -->
-        <section id="form-section">
-            <h2 class="text-center">Share Your Favorite Things</h2>
-            <form id="favorite-form">
-                <div class="form-group">
-                    <label for="name">Your Name:</label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="favorite-thing">Favorite Thing:</label>
-                    <input type="text" class="form-control" id="favorite-thing" required>
-                </div>
-                <div class="form-group">
-                    <label for="image-url">Image URL:</label>
-                    <input type="url" class="form-control" id="image-url" required>
-                </div>
-                <div class="form-group">
-                    <label for="answer">Your Answer to a Question:</label>
-                    <textarea class="form-control" id="answer" rows="3" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </section>
-
-        <!-- Submissions Section -->
-        <section id="submissions-section" class="mt-5">
-            <h2 class="text-center">Submitted Favorites</h2>
-            <div id="submissions-list" class="row">
-                <!-- Dynamic content will be injected here -->
-            </div>
-        </section>
-    </div>
-
-    <footer class="bg-dark text-white text-center py-3 mt-5">
-        &copy; 2024 Favorite Showcase. All rights reserved.
-    </footer>
-
-    <script>
-        document.getElementById('favorite-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-
-            // Get form values
-            const name = document.getElementById('name').value;
-            const favoriteThing = document.getElementById('favorite-thing').value;
-            const imageUrl = document.getElementById('image-url').value;
-            const answer = document.getElementById('answer').value;
-
-            // Create new submission element
-            const submissionDiv = document.createElement('div');
-            submissionDiv.classList.add('col-md-4', 'mb-4');
-            submissionDiv.innerHTML = `
-                <div class="card">
-                    <img src="${imageUrl}" class="card-img-top" alt="${favoriteThing}">
-                    <div class="card-body">
-                        <h5 class="card-title">${favoriteThing}</h5>
-                        <p class="card-text">Submitted by: ${name}</p>
-                        <p class="card-text">Answer: ${answer}</p>
-                        <button class="btn btn-primary share-button" data-name="${name}" data-favorite="${favoriteThing}">Share</button>
+    <div class="my-container">
+        <div class="row mx-auto">
+            <div class="card" id="firstCard">
+                <div class="img_div">
+                    <h3 style="color: rgb(21,76,82);text-align:center;margin:20px;background-color: floralwhite;border-radius:10px;">
+                        👫Best Friend Challenge by👫 <br/> MANYA
+                    </h3>
+                    <div class="instructions">
+                        <h4 class="heading">Instructions</h4>
+                        <ul>
+                            <li><span class="red"></span>Enter your name.</li>
+                            <li id="qmaker1"><span class="green"></span>Answer 10 questions about Manya.</li>
+                            <li><span class="purple"></span>Check your score at their Friendboard.</li>
+                        </ul>
+                    </div>
+                    <div class="group1" id="input-name">
+                        <p class="validation-text"></p>
+                        <form method="POST" action="https://wow.truefriend.life/play-now/DOd5WsdQ" onsubmit="return validate()">
+                            <fieldset>
+                                <div><input type="text" name="name_of_player" id="player_name" value autocomplete="on" placeholder="✍🏻 Enter your name." /></div>
+                                <input type="hidden" name="_token" value="7FdyEqqIp8VXkyE4WSFAB6AjBilvtWK6r6AjXNdV" />
+                                <p class="text-danger" style="display: none;"></p>
+                                <div><input class="button-24" type="submit" id="start" value="Start" /></div>
+                            </fieldset>
+                        </form>
+                        <audio id="mClick" preload="auto">
+                            <source src="/pub_resources/mouseclick.mp3" type="audio/mpeg" />Your browser does not support the audio element.
+                        </audio>
                     </div>
                 </div>
-            `;
+            </div>
+        </div>
+        <div class="scoreboard" style="display:block">
+            <br/>
+            <h3>MANYA'S Friendboard</h3>
+            <br/><br/>
+            <table id="score_table" class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">🏆</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="#r12770984"><td>🥇</td><td>Vishmi</td><td> 9 </td></tr>
+                    <tr id="#r81759138"><td>🥈</td><td>Thrupthi</td><td> 4 </td></tr>
+                    <tr id="#r30236830"><td>🥉</td><td>Rishita grishma</td><td> 4 </td></tr>
+                    <tr id="#r30236830"><td>😀</td><td>Rishita grishma</td><td> 4 </td></tr>
+                    <tr id="#r35443965"><td>😀</td><td>Soujanya birvaz</td><td> 3 </td></tr>
+                    <tr id="#r56755640"><td>😀</td><td>Vishmitha</td><td> 2 </td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="ezoic-pub-ad-placeholder-145"> </div>
+        <div class="cross-site-links">
+            <p style="margin-bottom:-5px;">Advertisement</p>
+            <a target="_blank" href="https://truefriend.life/index1.html">
+                <img src="/img/media/true_friendship_challenge.png" alt="true_friendship_challenge" />
+            </a>
+        </div>
+        <div class="cross-site-links">
+            <p>Gives us your feedback:</p>
+            <a target="_blank" href="https://www.facebook.com/groups/truefriendchallenge/">
+                <img src="/img/media/facebook-group.png" alt="truefriendgroup" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/truefriendchallenge/">
+                <img src="/img/media/instagram.png" alt="truefriendinstagram" />
+            </a>
+        </div>
+    </div>
 
-            // Add new submission to the list
-            document.getElementById('submissions-list').appendChild(submissionDiv);
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TrueFriend. All rights reserved.</p>
+    </footer>
 
-            // Clear the form
-            document.getElementById('favorite-form').reset();
-        });
-
-        // Share functionality
-        document.getElementById('submissions-list').addEventListener('click', function(event) {
-            if (event.target.classList.contains('share-button')) {
-                const name = event.target.getAttribute('data-name');
-                const favoriteThing = event.target.getAttribute('data-favorite');
-                const shareText = `Check out ${name}'s favorite thing: ${favoriteThing}!`;
-
-                if (navigator.share) {
-                    navigator.share({
-                        title: 'Favorite Showcase',
-                        text: shareText,
-                        url: window.location.href
-                    }).catch(console.error);
-                } else {
-                    alert(shareText);
-                }
-            }
-        });
-    </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://wow.truefriend.life/js/bootstrap.min.js"></script>
 </body>
 </html>
