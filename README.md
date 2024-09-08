@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play</title>
-   
+    <link rel="shortcut icon" type="image/png" href="/img/media/favicon.png" />
+    <link rel="stylesheet" href="https://wow.truefriend.life/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://wow.truefriend.life/css/mycss.css">
+    <link rel="stylesheet" href="https://wow.truefriend.life/css/my-css4ads.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/47eafd82ac.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Google Tag Manager -->
@@ -92,14 +99,13 @@
             <div class="card" id="firstCard">
                 <div class="img_div">
                     <h3 style="color: rgb(21,76,82);text-align:center;margin:20px;background-color: floralwhite;border-radius:10px;">
-                        👫Best Friend Challenge by👫 <br/> MANYA
+                         <br/> 
                     </h3>
                     <div class="instructions">
                         <h4 class="heading">Instructions</h4>
                         <ul>
                             <li><span class="red"></span>Enter your name.</li>
-                            <li id="qmaker1"><span class="green"></span>Answer 10 questions about Manya.</li>
-                            <li><span class="purple"></span>Check your score at their Friendboard.</li>
+                           
                         </ul>
                     </div>
                     <div class="group1" id="input-name">
