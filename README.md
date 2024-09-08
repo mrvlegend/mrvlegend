@@ -1,11 +1,52 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Will You love Me?</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+    <link rel="shortcut icon" type="image/png" href="/img/media/favicon.png" />
+    <link rel="stylesheet" href="https://wow.truefriend.life/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://wow.truefriend.life/css/mycss.css">
+    <link rel="stylesheet" href="https://wow.truefriend.life/css/my-css4ads.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/47eafd82ac.js" crossorigin="anonymous"></script>
+
     <style>
+     body {
+            /* Set your background image URL here */
+            background: url('https://wow.truefriend.life/img/media/your-background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 48px;
+            color: white;
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to the Game!</h1>
+        <!-- Additional content can go here -->
+    </div>
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NX3TNSFB"></script>
+</body>
         body {
             font-family: 'Poppins', sans-serif;
             display: flex;
