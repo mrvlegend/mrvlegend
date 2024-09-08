@@ -1,17 +1,10 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play</title>
-    <link rel="shortcut icon" type="image/png" href="/img/media/favicon.png" />
-    <link rel="stylesheet" href="https://wow.truefriend.life/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://wow.truefriend.life/css/mycss.css">
-    <link rel="stylesheet" href="https://wow.truefriend.life/css/my-css4ads.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script defer src="https://kit.fontawesome.com/47eafd82ac.js" crossorigin="anonymous"></script>
+   
 </head>
 <body>
     <!-- Google Tag Manager -->
@@ -130,23 +123,7 @@
             <br/>
             <h3>MANYA'S Friendboard</h3>
             <br/><br/>
-            <table id="score_table" class="table">
-                <thead class="thead-light">
-                    <tr>
-                        <th scope="col">🏆</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Score</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr id="#r12770984"><td>🥇</td><td>Vishmi</td><td> 9 </td></tr>
-                    <tr id="#r81759138"><td>🥈</td><td>Thrupthi</td><td> 4 </td></tr>
-                    <tr id="#r30236830"><td>🥉</td><td>Rishita grishma</td><td> 4 </td></tr>
-                    <tr id="#r30236830"><td>😀</td><td>Rishita grishma</td><td> 4 </td></tr>
-                    <tr id="#r35443965"><td>😀</td><td>Soujanya birvaz</td><td> 3 </td></tr>
-                    <tr id="#r56755640"><td>😀</td><td>Vishmitha</td><td> 2 </td></tr>
-                </tbody>
-            </table>
+            
         </div>
         <div id="ezoic-pub-ad-placeholder-145"> </div>
         <div class="cross-site-links">
@@ -166,13 +143,6 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 TrueFriend. All rights reserved.</p>
-    </footer>
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://wow.truefriend.life/js/bootstrap.min.js"></script>
+ 
 </body>
 </html>
