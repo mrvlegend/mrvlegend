@@ -127,7 +127,7 @@
         </div>
         <div class="scoreboard" style="display:block">
             <br/>
-            <h3>MANYA'S Friendboard</h3>
+
             <br/><br/>
             
         </div>
@@ -139,13 +139,7 @@
             </a>
         </div>
         <div class="cross-site-links">
-            <p>Gives us your feedback:</p>
-            <a target="_blank" href="https://www.facebook.com/groups/truefriendchallenge/">
-                <img src="/img/media/facebook-group.png" alt="truefriendgroup" />
-            </a>
-            <a target="_blank" href="https://www.instagram.com/truefriendchallenge/">
-                <img src="/img/media/instagram.png" alt="truefriendinstagram" />
-            </a>
+           </a>
         </div>
     </div>
 
