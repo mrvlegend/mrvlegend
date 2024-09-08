@@ -96,7 +96,7 @@
 
         <!-- Cute Cartoon Cat Images -->
         <img src="https://i.imgur.com/jSo3wpX.png" alt="Cute Cat Left" class="cat-image cat-left" />
-        <img src="https://i.imgur.com/5jO3nNQ.png" alt="Cute Cat Right" class="cat-image cat-right" />
+        <img src="[https://i.imgur.com/5jO3nNQ.png](https://www.google.com/imgres?q=lovely%20lovely%20cute%20cat%20cartoon%20png&imgurl=https%3A%2F%2Fe7.pngegg.com%2Fpngimages%2F640%2F431%2Fpng-clipart-white-beige-and-pink-cat-illustration-keyboard-cat-computer-keyboard-hello-kitty-kitten-love-white-mammal.png&imgrefurl=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-yktad&docid=gxAU7IqjBdwZgM&tbnid=2fBxEw847ZtLQM&vet=12ahUKEwirgcCRx7KIAxX0zTgGHZQULUoQM3oECBoQAA..i&w=900&h=640&hcb=2&ved=2ahUKEwirgcCRx7KIAxX0zTgGHZQULUoQM3oECBoQAA)" alt="Cute Cat Right" class="cat-image cat-right" />
 
         <!-- Hidden Smiling Cat (shows after Yes button click) -->
         <img src="https://i.imgur.com/oS3kFgC.png" alt="Smiling Cat" class="smiling-cat" id="smilingCat" />
