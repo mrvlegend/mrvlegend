@@ -95,7 +95,7 @@
         <img src="https://i.imgur.com/Nwi6KVI.png" alt="Cute Cat Right" class="cat-image cat-right" />
 
         <!-- Hidden Smiling Cat (shows after Yes button click) -->
-        <img src="https://i.imgur.com/oS3kFgC.png" alt="Smiling Cat" class="smiling-cat" id="smilingCat" />
+        <img src="https://png.pngtree.com/png-vector/20190130/ourmid/pngtree-hand-drawn-cartoon-animal-couple-cat-sweet-love-illustration-element-paintedcartoon-png-image_608490.jpg" alt="Smiling Cat" class="smiling-cat" id="smilingCat" />
     </div>
 
     <script>
