@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -77,23 +75,45 @@
             bottom: 10px;
             right: 10px;
         }
+
+        /* Hidden smiling cat that appears after "Yes" */
+        .smiling-cat {
+            display: none;
+            width: 200px;
+            height: auto;
+            margin-top: 20px;
+        }
+
     </style>
 </head>
 <body>
     <div class="proposal-container">
         <h1>Will You Marry Me?</h1>
         <div class="buttons">
-            <button class="yes-button" onclick="alert('Yay! I love you!')">Yes 💖</button>
+            <button class="yes-button" id="yesButton">Yes 💖</button>
             <button class="no-button" id="noBtn">No 😢</button>
         </div>
 
         <!-- Cute Cartoon Cat Images -->
         <img src="https://i.imgur.com/jSo3wpX.png" alt="Cute Cat Left" class="cat-image cat-left" />
         <img src="https://i.imgur.com/5jO3nNQ.png" alt="Cute Cat Right" class="cat-image cat-right" />
+
+        <!-- Hidden Smiling Cat (shows after Yes button click) -->
+        <img src="https://i.imgur.com/oS3kFgC.png" alt="Smiling Cat" class="smiling-cat" id="smilingCat" />
     </div>
 
     <script>
+        const yesButton = document.getElementById('yesButton');
         const noBtn = document.getElementById('noBtn');
+        const smilingCat = document.getElementById('smilingCat');
+
+        // Yes Button Event Listener
+        yesButton.addEventListener('click', function() {
+            alert('Yay! I love you! 😻');
+            smilingCat.style.display = 'block'; // Show the smiling cat
+        });
+
+        // No Button Event Listener (moves the button)
         noBtn.addEventListener('mouseover', function() {
             const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
             const y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
