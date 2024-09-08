@@ -91,7 +91,7 @@
         </div>
 
         <!-- Cute Cartoon Cat Images -->
-        <img src="https://tse3.mm.bing.net/th?id=OIP.W3P9NOkoZ2SCvHHdEOOa8gHaEK&pid=Api&P=0&h=220" alt="Line Following Robot Diagram">
+        <img src="https://images.app.goo.gl/W3ecnHYkB3jFcFXk6" alt="Line Following Robot Diagram">
         <img src="https://i.imgur.com/Nwi6KVI.png" alt="Cute Cat Right" class="cat-image cat-right" />
 
         <!-- Hidden Smiling Cat (shows after Yes button click) -->
