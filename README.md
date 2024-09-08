@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +12,7 @@
     <link rel="stylesheet" href="https://wow.truefriend.life/css/my-css4ads.css">
     <style>
         body {
-            background: url('https://wow.truefriend.life/img/media/your-background-image.jpg') no-repeat center center fixed;
-            background-size: cover;
+            background: linear-gradient(to right, #ffcccc, #ff99cc);
             height: 100vh;
             margin: 0;
             display: flex;
@@ -22,14 +22,17 @@
         }
         .proposal-container {
             text-align: center;
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            background-color: rgba(255, 255, 255, 0.8); /* Light white background */
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border: 5px solid #ff66b2; /* Pink border */
+            position: relative;
+            overflow: hidden;
         }
         h1 {
             font-size: 48px;
-            color: white;
+            color: #ff3399;
             margin-bottom: 20px;
         }
         .buttons {
@@ -45,29 +48,48 @@
             transition: background-color 0.3s;
         }
         .yes-button {
-            background-color: #28a745;
+            background-color: #ff66b2;
             color: white;
         }
         .yes-button:hover {
-            background-color: #218838;
+            background-color: #ff3399;
         }
         .no-button {
-            background-color: #dc3545;
+            background-color: #ff9999;
             color: white;
             position: relative;
         }
         .no-button:hover {
-            background-color: #c82333;
+            background-color: #ff6666;
+        }
+
+        /* Cartoon Cat Images */
+        .cat-image {
+            position: absolute;
+            width: 80px;
+            height: auto;
+        }
+        .cat-left {
+            bottom: 10px;
+            left: 10px;
+        }
+        .cat-right {
+            bottom: 10px;
+            right: 10px;
         }
     </style>
 </head>
 <body>
     <div class="proposal-container">
-        <h1>Will You love Me?</h1>
+        <h1>Will You Marry Me?</h1>
         <div class="buttons">
             <button class="yes-button" onclick="alert('Yay! I love you!')">Yes 💖</button>
             <button class="no-button" id="noBtn">No 😢</button>
         </div>
+
+        <!-- Cute Cartoon Cat Images -->
+        <img src="https://i.imgur.com/jSo3wpX.png" alt="Cute Cat Left" class="cat-image cat-left" />
+        <img src="https://i.imgur.com/5jO3nNQ.png" alt="Cute Cat Right" class="cat-image cat-right" />
     </div>
 
     <script>
