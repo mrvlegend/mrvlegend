@@ -85,15 +85,16 @@
 <body>
     <div class="proposal-container">
         <h1>HAPPY BIRTHDAY </h1>
-        <h1>I WANT TO SAY SAY SOMTHING TO YOU FROM THE FIRST DAY WHEN I SAW YOU.😊</h1>
+        <h1>I WANT TO SAY SAY SOMTHING TO YOU</h1>
+        <h1></h1>FROM THE FIRST DAY WHEN I SAW YOU.😊</h1>
         <div class="buttons">
             <button class="yes-button" id="yesButton">continue 💖</button>
             <button class="no-button" id="noBtn">not interested😢</button>
         </div>
 
         <!-- Cute Cartoon Cat Images -->
-        <img src="https://images.app.goo.gl/W3ecnHYkB3jFcFXk6" alt="Line Following Robot Diagram">
-        <img src="https://i.imgur.com/Nwi6KVI.png" alt="Cute Cat Right" class="cat-image cat-right" />
+        <img src="https://images.app.goo.gl/W3ecnHYkB3jFcFXk6](https://drive.google.com/file/d/1et0U82SzmPcLmN1smx7YuLfyHXAK1lA8/view?usp=sharing" alt="Line Following Robot Diagram">
+        <img src="https://drive.google.com/file/d/1zsrzHScbuMiUcPEV-jq_baPXrEXP-gil/view?usp=sharing" alt="Cute Cat Right" class="cat-image cat-right" />
 
         <!-- Hidden Smiling Cat (shows after Yes button click) -->
         <img src="https://png.pngtree.com/png-vector/20190130/ourmid/pngtree-hand-drawn-cartoon-animal-couple-cat-sweet-love-illustration-element-paintedcartoon-png-image_608490.jpg" alt="Smiling Cat" class="smiling-cat" id="smilingCat" />
