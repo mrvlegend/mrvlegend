@@ -86,7 +86,7 @@
     <div class="proposal-container">
         <h1>HAPPY BIRTHDAY </h1>
         <h1>I WANT TO SAY SAY SOMTHING TO YOU</h1>
-        <h1></h1>FROM THE FIRST DAY WHEN I SAW YOU.😊</h1>
+        <h1>FROM THE FIRST DAY WHEN I SAW YOU.😊</h1>
         <div class="buttons">
             <button class="yes-button" id="yesButton">continue 💖</button>
             <button class="no-button" id="noBtn">not interested😢</button>
