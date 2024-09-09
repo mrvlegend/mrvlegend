@@ -2,7 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will You Marry Me?</title>
+    <title>HAPPAY BIRTHDAY</title>
+    <title>I WANT TO SAY SAY SOMTHING TO YOU FROM THE FIRST DAY WHEN I SAW YOU.😊 </title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -86,8 +87,8 @@
     <div class="proposal-container">
         <h1>Will You Marry Me?</h1>
         <div class="buttons">
-            <button class="yes-button" id="yesButton">Yes 💖</button>
-            <button class="no-button" id="noBtn">No 😢</button>
+            <button class="yes-button" id="yesButton">continue 💖</button>
+            <button class="no-button" id="noBtn">not interested😢</button>
         </div>
 
         <!-- Cute Cartoon Cat Images -->
@@ -105,7 +106,7 @@
 
         // Yes Button Event Listener
         yesButton.addEventListener('click', function() {
-            alert('Yay! I love you! 😻');
+            alert('PRESS OK TO CONTINUE! 😻');
             smilingCat.style.display = 'block'; // Show the smiling cat
         });
 
