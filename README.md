@@ -3,8 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAPPAY BIRTHDAY</title>
-    <title>I WANT TO SAY SAY SOMTHING TO YOU FROM THE FIRST DAY WHEN I SAW YOU.😊 </title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
             background: linear-gradient(to right, #ffcccc, #ff99cc);
@@ -85,7 +84,8 @@
 </head>
 <body>
     <div class="proposal-container">
-        <h1>Will You Marry Me?</h1>
+        <h1>HAPPY BIRTHDAY </h1>
+        <h1>I WANT TO SAY SAY SOMTHING TO YOU FROM THE FIRST DAY WHEN I SAW YOU.😊</h1>
         <div class="buttons">
             <button class="yes-button" id="yesButton">continue 💖</button>
             <button class="no-button" id="noBtn">not interested😢</button>
