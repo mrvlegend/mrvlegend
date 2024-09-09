@@ -93,7 +93,7 @@
         </div>
 
         <!-- Cute Cartoon Cat Images -->
-        <img src="https://images.app.goo.gl/W3ecnHYkB3jFcFXk6](https://drive.google.com/file/d/1et0U82SzmPcLmN1smx7YuLfyHXAK1lA8/view?usp=sharing" alt="Line Following Robot Diagram">
+        <img src="https://images.app.goo.gl/W3ecnHYkB3jFcFXk6](https://drive.google.com/file/d/1et0U82SzmPcLmN1smx7YuLfyHXAK1lA8/view?usp=sharing" alt="cat-image cat-left">
         <img src="https://drive.google.com/file/d/1zsrzHScbuMiUcPEV-jq_baPXrEXP-gil/view?usp=sharing" alt="Cute Cat Right" class="cat-image cat-right" />
 
         <!-- Hidden Smiling Cat (shows after Yes button click) -->
