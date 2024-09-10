@@ -2,8 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HAPPAY BIRTHDAY</title>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>HAPPY BIRTHDAY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
             background: linear-gradient(to right, #ffcccc, #ff99cc);
@@ -80,35 +80,48 @@
             margin-top: 20px;
         }
 
+        /* Hidden text message */
+        .message {
+            display: none;
+            font-size: 24px;
+            color: #ff3399;
+            margin-top: 20px;
+        }
+
     </style>
 </head>
 <body>
     <div class="proposal-container">
-        <h1>HAPPY BIRTHDAY </h1>
-        <h1>I WANT TO SAY SAY SOMTHING TO YOU</h1>
-        <h1>FROM THE FIRST DAY WHEN I SAW YOU.😊</h1>
+        <h1>HAPPY BIRTHDAY</h1>
+        <h1>I WANT TO SAY SOMETHING TO YOU</h1>
+        <h1>FROM THE FIRST DAY WHEN I SAW YOU. 😊</h1>
         <div class="buttons">
-            <button class="yes-button" id="yesButton">continue 💖</button>
-            <button class="no-button" id="noBtn">not interested😢</button>
+            <button class="yes-button" id="yesButton">Continue 💖</button>
+            <button class="no-button" id="noBtn">Not interested 😢</button>
         </div>
 
         <!-- Cute Cartoon Cat Images -->
-        <img src="https://images.app.goo.gl/W3ecnHYkB3jFcFXk6](https://drive.google.com/file/d/1et0U82SzmPcLmN1smx7YuLfyHXAK1lA8/view?usp=sharing" alt="cat-image cat-left">
+        <img src="https://images.app.goo.gl/W3ecnHYkB3jFcFXk6](https://drive.google.com/file/d/1et0U82SzmPcLmN1smx7YuLfyHXAK1lA8/view?usp=sharing" alt="Cat Left" class="cat-image cat-left" />
         <img src="https://drive.google.com/file/d/1zsrzHScbuMiUcPEV-jq_baPXrEXP-gil/view?usp=sharing" alt="Cute Cat Right" class="cat-image cat-right" />
 
         <!-- Hidden Smiling Cat (shows after Yes button click) -->
         <img src="https://png.pngtree.com/png-vector/20190130/ourmid/pngtree-hand-drawn-cartoon-animal-couple-cat-sweet-love-illustration-element-paintedcartoon-png-image_608490.jpg" alt="Smiling Cat" class="smiling-cat" id="smilingCat" />
+
+        <!-- Hidden Text Message -->
+        <div class="message" id="message">I LOVE YOU FROM THE BOTTOM OF MY HEART 💖🐱</div>
     </div>
 
     <script>
         const yesButton = document.getElementById('yesButton');
         const noBtn = document.getElementById('noBtn');
         const smilingCat = document.getElementById('smilingCat');
+        const message = document.getElementById('message');
 
         // Yes Button Event Listener
         yesButton.addEventListener('click', function() {
             alert('PRESS OK TO CONTINUE! 😻');
             smilingCat.style.display = 'block'; // Show the smiling cat
+            message.style.display = 'block';   // Show the hidden message
         });
 
         // No Button Event Listener (moves the button)
@@ -122,4 +135,3 @@
     </script>
 </body>
 </html>
-
