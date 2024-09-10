@@ -100,15 +100,9 @@
             <button class="no-button" id="noBtn">Not interested 😢</button>
         </div>
 
-        <!-- Cute Cartoon Cat Images -->
-        <img src="https://images.app.goo.gl/W3ecnHYkB3jFcFXk6](https://drive.google.com/file/d/1et0U82SzmPcLmN1smx7YuLfyHXAK1lA8/view?usp=sharing" alt="Cat Left" class="cat-image cat-left" />
-        <img src="https://drive.google.com/file/d/1zsrzHScbuMiUcPEV-jq_baPXrEXP-gil/view?usp=sharing" alt="Cute Cat Right" class="cat-image cat-right" />
-
-        <!-- Hidden Smiling Cat (shows after Yes button click) -->
-        <img src="https://png.pngtree.com/png-vector/20190130/ourmid/pngtree-hand-drawn-cartoon-animal-couple-cat-sweet-love-illustration-element-paintedcartoon-png-image_608490.jpg" alt="Smiling Cat" class="smiling-cat" id="smilingCat" />
-
+       
         <!-- Hidden Text Message -->
-        <div class="message" id="message">I LOVE YOU FROM THE BOTTOM OF MY HEART 💖🐱</div>
+        <div class="message" id="message">From the first time I saw you, I felt a strong connection and love for you. ❤️ I still feel the same way now. 💖 I’m sorry if I ever seemed distant or if I didn’t communicate well. 😔 Sometimes, when I’m with you, I get so overwhelmed by my feelings that I forget to say what’s on my mind. 😅 Please know that I care about you deeply and I’m sorry if my actions didn’t always show that. 🌹💕.I LOVED YOU FROM THE BOTTOM OF MY HEART 💖🐱</div>
     </div>
 
     <script>
