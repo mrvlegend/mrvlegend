@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,21 +58,6 @@
             background-color: #ff6666;
         }
 
-        /* Cartoon Cat Images */
-        .cat-image {
-            position: absolute;
-            width: 80px;
-            height: auto;
-        }
-        .cat-left {
-            bottom: 10px;
-            left: 10px;
-        }
-        .cat-right {
-            bottom: 10px;
-            right: 10px;
-        }
-
         /* Hidden smiling cat that appears after "Yes" */
         .smiling-cat {
             display: none;
@@ -87,7 +73,6 @@
             color: #ff3399;
             margin-top: 20px;
         }
-
     </style>
 </head>
 <body>
@@ -100,9 +85,13 @@
             <button class="no-button" id="noBtn">Not interested 😢</button>
         </div>
 
-       
+        <!-- Smiling cat -->
+        <img src="https://via.placeholder.com/200x200.png?text=Smiling+Cat" alt="Smiling Cat" class="smiling-cat" id="smilingCat">
+
         <!-- Hidden Text Message -->
-        <div class="message" id="message">From the first time I saw you, I felt a strong connection and love for you. ❤️ I still feel the same way now. 💖 I’m sorry if I ever seemed distant or if I didn’t communicate well. 😔 Sometimes, when I’m with you, I get so overwhelmed by my feelings that I forget to say what’s on my mind. 😅 Please know that I care about you deeply and I’m sorry if my actions didn’t always show that. 🌹💕.I LOVED YOU FROM THE BOTTOM OF MY HEART 💖🐱</div>
+        <div class="message" id="message">
+            From the first time I saw you, I felt a strong connection and love for you. ❤️ I still feel the same way now. 💖 I’m sorry if I ever seemed distant or if I didn’t communicate well. 😔 Sometimes, when I’m with you, I get so overwhelmed by my feelings that I forget to say what’s on my mind. 😅 Please don't take it deeply and I’m sorry if my actions didn’t always show that. 🌹💕 I LOVED YOU FROM THE BOTTOM OF MY HEART 💖🐱
+        </div>
     </div>
 
     <script>
