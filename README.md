@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-image: url('https://github.com/your-username/your-repo-name/raw/main/WhatsApp%20Image%202024-09-13%20at%2021.28.21_3a44bfe0.jpg'); /* Add a background image */
+            background-image: url('WhatsApp Image 2024-09-13 at 21.28.21_3a44bfe0.jpg'); /* Add a background image */
             background-size: 100vw 100vh; /* Make the background image cover the entire page */
             background-position: center; /* Center the background image */
             height: 100vh;
