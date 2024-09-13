@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-image: url('D:\vcet mem 2024\SAVE_20240909_155512(1).jpg'); /* Add a background image */
+            background-image: url('file:///D:/vcet%20mem%202024/SAVE_20240909_155512(1).jpg'); /* Add a background image */
             background-size: cover;
             height: 100vh;
             margin: 0;
