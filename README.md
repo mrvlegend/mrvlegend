@@ -6,16 +6,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            background-image: url('WhatsApp Image 2024-09-13 at 21.28.21_3a44bfe0.jpg'); /* Add a background image */
-            background-size: cover;
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Poppins', sans-serif;
-        }
+       body {
+  background-image: url('https://github.com/your-username/your-repo-name/raw/main/WhatsApp%20Image%202024-09-13%20at%2021.28.21_3a44bfe0.jpg'); /* Add a background image */
+  background-size: 100vw 100vh; /* Make the background image cover the entire page */
+  background-position: center; /* Center the background image */
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+ body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8));
+  z-index: -1;
+}
         .proposal-container {
             text-align: center;
             background-color: rgba(255, 255, 255, 0.8); /* Light white background */
