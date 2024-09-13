@@ -1,34 +1,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
     <title>HAPPY BIRTHDAY</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-       body {
-  background-image: url('https://github.com/your-username/your-repo-name/raw/main/WhatsApp%20Image%202024-09-13%20at%2021.28.21_3a44bfe0.jpg'); /* Add a background image */
-  background-size: 100vw 100vh; /* Make the background image cover the entire page */
-  background-position: center; /* Center the background image */
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
-}
+        body {
+            background-image: url('https://github.com/your-username/your-repo-name/raw/main/WhatsApp%20Image%202024-09-13%20at%2021.28.21_3a44bfe0.jpg'); /* Add a background image */
+            background-size: 100vw 100vh; /* Make the background image cover the entire page */
+            background-position: center; /* Center the background image */
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+        }
 
+        /* Add a gradient overlay to make the background image more lovely */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8));
+            z-index: -1;
+        }
 
- body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8));
-  z-index: -1;
-}
         .proposal-container {
             text-align: center;
             background-color: rgba(255, 255, 255, 0.8); /* Light white background */
@@ -39,15 +40,18 @@
             position: relative;
             overflow: hidden;
         }
+
         h1 {
             font-size: 48px;
             font-family: 'Playfair Display', serif; /* Use a serif font for headings */
             color: #ff3399;
             margin-bottom: 20px;
         }
+
         .buttons {
             margin-top: 30px;
         }
+
         button {
             font-size: 18px;
             padding: 10px 20px;
@@ -57,18 +61,22 @@
             cursor: pointer;
             transition: background-color 0.3s;
         }
+
         .yes-button {
             background-color: #ff66b2;
             color: white;
         }
+
         .yes-button:hover {
             background-color: #ff3399;
         }
+
         .no-button {
             background-color: #ff9999;
             color: white;
             position: relative;
         }
+
         .no-button:hover {
             background-color: #ff6666;
         }
@@ -157,4 +165,5 @@
             loading.style.display = 'none';
         }, 2000);
     </script>
-</body
+</body>
+</html>
