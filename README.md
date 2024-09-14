@@ -6,7 +6,91 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* ... existing styles ... */
+        body {
+            background-image: url('file:///D:/vcet%20mem%202024/SAVE_20240909_155512(1).jpg'); /* Add a background image */
+            background-size: cover;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .proposal-container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Light white background */
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border: 5px solid #ff66b2; /* Pink border */
+            position: relative;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 48px;
+            font-family: 'Playfair Display', serif; /* Use a serif font for headings */
+            color: #ff3399;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .yes-button {
+            background-color: #ff66b2;
+            color: white;
+        }
+        .yes-button:hover {
+            background-color: #ff3399;
+        }
+        .no-button {
+            background-color: #ff9999;
+            color: white;
+            position: relative;
+        }
+        .no-button:hover {
+            background-color: #ff6666;
+        }
+
+        /* Hidden smiling cat that appears after "Yes" */
+        .smiling-cat {
+            display: none;
+            width: 200px;
+            height: auto;
+            margin-top: 20px;
+            animation: fadeIn 0.5s; /* Add animation to the smiling cat */
+        }
+
+        /* Hidden text message */
+        .message {
+            display: none;
+            font-size: 24px;
+            color: #ff3399;
+            margin-top: 20px;
+            animation: fadeIn 0.5s; /* Add animation to the message */
+        }
+
+        /* Loading animation */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: fadeOut 2s; /* Add animation to the loading animation */
+        }
     </style>
 </head>
 <body>
@@ -28,7 +112,7 @@
         </div>
 
         <!-- Hidden Smiling Cat -->
-        <img src="download.jpeg" alt="Smiling cat" class="smiling-cat" id="smilingCat">
+        <img src="smiling-cat.jpg" alt="Smiling cat" class="smiling-cat" id="smilingCat">
     </div>
 
     <script>
@@ -60,5 +144,4 @@
             loading.style.display = 'none';
         }, 2000);
     </script>
-</body>
-</html>
+</body
