@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAPPY BIRTHDAY</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,6 +16,16 @@
             justify-content: center;
             align-items: center;
             font-family: 'Poppins', sans-serif;
+            animation: backgroundAnimation 10s infinite; /* Add animation to the background */
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
         }
 
         /* Add a gradient overlay to make the background image more lovely */
@@ -39,6 +49,9 @@
             border: 5px solid #ff66b2; /* Pink border */
             position: relative;
             overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         h1 {
@@ -59,7 +72,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.3s;
         }
 
         .yes-button {
@@ -69,6 +82,7 @@
 
         .yes-button:hover {
             background-color: #ff3399;
+            transform: scale(1.1);
         }
 
         .no-button {
@@ -79,6 +93,7 @@
 
         .no-button:hover {
             background-color: #ff6666;
+            transform: scale(1.1);
         }
 
         /* Hidden smiling cat that appears after "Yes" */
@@ -86,7 +101,7 @@
             display: none;
             width: 200px;
             height: auto;
-            margin-top: 20px;
+            margin: 0 auto; /* center horizontally */
             animation: fadeIn 0.5s; /* Add animation to the smiling cat */
         }
 
@@ -97,6 +112,15 @@
             color: #ff3399;
             margin-top: 20px;
             animation: fadeIn 0.5s; /* Add animation to the message */
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
 
         /* Loading animation */
@@ -111,6 +135,20 @@
             justify-content: center;
             align-items: center;
             animation: fadeOut 2s; /* Add animation to the loading animation */
+        }
+
+        .loading img {
+            display: block;
+            margin: 0 auto; /* center horizontally */
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
         }
     </style>
 </head>
@@ -153,17 +191,4 @@
 
         // No Button Event Listener (moves the button)
         noBtn.addEventListener('mouseover', function() {
-            const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
-            const y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
-            noBtn.style.position = 'absolute';
-            noBtn.style.left = x + 'px';
-            noBtn.style.top = y + 'px';
-        });
-
-        // Add animation to the loading animation
-        setTimeout(function() {
-            loading.style.display = 'none';
-        }, 2000);
-    </script>
-</body>
-</html>
+            const
