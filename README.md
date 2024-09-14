@@ -133,7 +133,7 @@
         </div>
 
         <!-- Hidden Smiling Cat -->
-        <img src="smiling-cat.jpg" alt="Smiling cat" class="smiling-cat" id="smilingCat">
+        <img src="download.jpeg" alt="Smiling cat" class="smiling-cat" id="smilingCat">
     </div>
 
     <script>
