@@ -38,7 +38,7 @@
             position: relative;
             overflow: hidden;
             animation: border-color-change 2s infinite; /* Animation duration: 2 seconds, infinite loop */
-            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
         }
         @keyframes border-color-change {
             0% {
@@ -109,7 +109,8 @@
             color: #E3319D; /* White text color */
             margin-top: 20px;
             animation: fadeIn 0.5s; /* Add animation to the message */
-            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+
         }
 
         /* Loading animation */
