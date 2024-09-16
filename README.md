@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,16 +16,16 @@
             background-color: #000; /* Black background */
         }
         .bg_heart {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-image: url("https://i.pinimg.com/originals/51/d8/37/51d8374126446d495348b6032202126f.jpg");
-  background-size: 100% 100%;
-  z-index: -1;
-}
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-image: url("https://i.pinimg.com/originals/51/d8/37/51d8374126446d495348b6032202126f.jpg");
+            background-size: 100% 100%;
+            z-index: -1;
+        }
         .proposal-container {
             text-align: center;
             background-image: url('https://github.com/mrvlegend/mrvlegend/blob/main/WhatsApp%20Image%202024-09-16%20at%2014.26.29_8c3a4150.jpg?raw=true'); /* Add a background image */
@@ -40,92 +39,92 @@
             overflow: hidden;
             animation: border-color-change 2s infinite; /* Animation duration: 2 seconds, infinite loop */
         }
- @keyframes border-color-change {
-        0% {
-            border-color: rgb(255, 102, 178); /* Pink */
+        @keyframes border-color-change {
+            0% {
+                border-color: rgb(255, 102, 178); /* Pink */
+            }
+            50% {
+                border-color: rgb(255, 103, 178); /* Green */
+            }
+            100% {
+                border-color: rgb(255, 104, 178); /* Red */
+            }
         }
-        50% {
-            border-color: rgb(255, 103, 178); /* Green */
+
+        h1 {
+            font-size: 48px;
+            font-family: 'Playfair Display', serif; /* Use a serif font for headings */
+            color: #E3319D; /* White text color */
+            margin-bottom: 20px;
+            opacity: 100%;
+            outline: 5px solid #FFFFFF; /* Add outline to the heading */
         }
-        100% {
-            border-color: rgb(255, 104, 178); /* Red */
+
+        .buttons {
+            margin-top: 30px;
         }
-    }
 
-    h1 {
-        font-size: 48px;
-        font-family: 'Playfair Display', serif; /* Use a serif font for headings */
-        color: #E3319D; /* White text color */
-        margin-bottom: 20px;
-        opacity: 100%;
-        outline: 1px solid #FFFFFF;
-    }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
 
-    .buttons {
-        margin-top: 30px;
-    }
+        .yes-button {
+            background-color: #ff66b2;
+            color: #fff; /* White text color */
+        }
 
-    button {
-        font-size: 18px;
-        padding: 10px 20px;
-        margin: 10px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
+        .yes-button:hover {
+            background-color: #ff3399;
+        }
 
-    .yes-button {
-        background-color: #ff66b2;
-        color: #fff; /* White text color */
-    }
+        .no-button {
+            background-color: #ff9999;
+            color: #fff; /* White text color */
+            position: relative;
+        }
 
-    .yes-button:hover {
-        background-color: #ff3399;
-    }
+        .no-button:hover {
+            background-color: #ff6666;
+        }
 
-    .no-button {
-        background-color: #ff9999;
-        color: #fff; /* White text color */
-        position: relative;
-    }
+        /* Hidden smiling cat that appears after "Yes" */
+        .smiling-cat {
+            display: none;
+            width: 200px;
+            height: auto;
+            margin-top: 20px;
+            animation: fadeIn 0.5s; /* Add animation to the smiling cat */
+        }
 
-    .no-button:hover {
-        background-color: #ff6666;
-    }
+        /* Hidden text message */
+        .message {
+            display: none;
+            font-size: 24px;
+            color: #E3319D; /* White text color */
+            margin-top: 20px;
+            animation: fadeIn 0.5s; /* Add animation to the message */
+            outline: 1px solid #FFFFFF;
+        }
 
-    /* Hidden smiling cat that appears after "Yes" */
-    .smiling-cat {
-        display: none;
-        width: 200px;
-        height: auto;
-        margin-top: 20px;
-        animation: fadeIn 0.5s; /* Add animation to the smiling cat */
-    }
-
-    /* Hidden text message */
-    .message {
-        display: none;
-        font-size: 24px;
-        color: #E3319D; /* White text color */
-        margin-top: 20px;
-        animation: fadeIn 0.5s; /* Add animation to the message */
-        outline: 1px solid #FFFFFF;
-    }
-
-    /* Loading animation */
-    .loading {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        animation: fadeOut 2s; /* Add animation to the loading animation */
-    }
+        /* Loading animation */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: fadeOut 2s; /* Add animation to the loading animation */
+        }
     </style>
 </head>
 <body>
@@ -170,7 +169,7 @@
 
         // No Button Event Listener (moves the button)
         noBtn.addEventListener('mouseover', function() {
-            const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
+ const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
             const y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
             noBtn.style.position = 'absolute';
             noBtn.style.left = x + 'px';
