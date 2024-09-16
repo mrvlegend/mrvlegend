@@ -16,11 +16,23 @@
             font-family: 'Poppins', sans-serif;
             background-color: #000; /* Black background */
         }
+        .bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("https://i.pinimg.com/originals/51/d8/37/51d8374126446d495348b6032202126f.jpg");
+  background-size: 100% 100%;
+  z-index: -1;
+}
         .proposal-container {
             text-align: center;
             background-image: url('https://github.com/mrvlegend/mrvlegend/blob/a152ec409cc1b1afd745c4923f52d33ec9e55487/IMG-20230703-WA0018.jpg?raw=true'); /* Add a background image */
             background-size: cover;
             padding: 40px;
+             opacity: 0.5;
             border-radius: 20px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
             /* Animated border */
