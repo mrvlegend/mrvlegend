@@ -29,7 +29,7 @@
 }
         .proposal-container {
             text-align: center;
-            background-image: url('https://github.com/mrvlegend/mrvlegend/blob/a152ec409cc1b1afd745c4923f52d33ec9e55487/IMG-20230703-WA0018.jpg?raw=true'); /* Add a background image */
+            background-image: url('https://github.com/mrvlegend/mrvlegend/blob/main/WhatsApp%20Image%202024-09-16%20at%2014.26.29_8c3a4150.jpg?raw=true'); /* Add a background image */
             background-size: cover;
             padding: 40px;
             border-radius: 20px;
