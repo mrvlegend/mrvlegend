@@ -7,8 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-image: url('file:///D:/vcet%20mem%202024/SAVE_20240909_155512(1).jpg'); /* Add a background image */
-            background-size: cover;
             height: 100vh;
             margin: 0;
             display: flex;
@@ -18,12 +16,15 @@
         }
         .proposal-container {
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.8); /* Light white background */
+            background-image: url('https://github.com/mrvlegend/mrvlegend/blob/a152ec409cc1b1afd745c4923f52d33ec9e55487/IMG-20230703-WA0018.jpg'); /* Add a background image */
+            background-size: cover;
             padding: 40px;
             border-radius: 20px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            <img src="IMG-20230703-WA0018.jpg" alt="Birthday Photo" style="width: 100%; height: auto; margin: 20px;">
+            /* Creative border */
             border: 5px solid #ff66b2; /* Pink border */
+            border-image-source: linear-gradient(to bottom, #ff66b2, #ff3399);
+            border-image-slice: 1;
             position: relative;
             overflow: hidden;
         }
@@ -145,4 +146,4 @@
             loading.style.display = 'none';
         }, 2000);
     </script>
-</body
+</body>
