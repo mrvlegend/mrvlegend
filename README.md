@@ -45,17 +45,17 @@
             border-color: rgb(255, 102, 178); /* Pink */
         }
         50% {
-            border-color: rgb(0, 255, 0); /* Green */
+            border-color: rgb(255, 103, 178); /* Green */
         }
         100% {
-            border-color: rgb(255, 0, 0); /* Red */
+            border-color: rgb(255, 104, 178); /* Red */
         }
     }
 
     h1 {
         font-size: 48px;
         font-family: 'Playfair Display', serif; /* Use a serif font for headings */
-        color: #fff; /* White text color */
+        color: #E3319D; /* White text color */
         margin-bottom: 20px;
         opacity: 100%;
 
