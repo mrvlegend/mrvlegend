@@ -58,6 +58,7 @@
         color: #E3319D; /* White text color */
         margin-bottom: 20px;
         opacity: 100%;
+        outline: 1px solid #FFFFFF;
     }
 
     .buttons {
@@ -109,6 +110,7 @@
         color: #E3319D; /* White text color */
         margin-top: 20px;
         animation: fadeIn 0.5s; /* Add animation to the message */
+        outline: 1px solid #FFFFFF;
     }
 
     /* Loading animation */
