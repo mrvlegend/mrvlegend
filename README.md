@@ -57,7 +57,6 @@
             color: #E3319D; /* White text color */
             margin-bottom: 20px;
             opacity: 100%;
-            outline: 5px solid #FFFFFF; /* Add outline to the heading */
         }
 
         .buttons {
@@ -109,7 +108,6 @@
             color: #E3319D; /* White text color */
             margin-top: 20px;
             animation: fadeIn 0.5s; /* Add animation to the message */
-            outline: 1px solid #FFFFFF;
         }
 
         /* Loading animation */
@@ -161,7 +159,7 @@
 
         // Yes Button Event Listener
         yesButton.addEventListener('click', function() {
-            alert('PRESS OK TO CONTINUE! 😻');
+            alert('PRESS OK TO CONTINUE MS_DEEKSHITHA🦋!');
             smilingCat.style.display = 'block'; // Show the smiling cat
             message.style.display = 'block';   // Show the hidden message
             loading.style.display = 'none'; // Hide the loading animation
