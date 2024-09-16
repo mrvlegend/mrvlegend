@@ -58,7 +58,7 @@
         color: #E3319D; /* White text color */
         margin-bottom: 20px;
         opacity: 100%;
-
+         border: 1px solid #000;
     }
 
     .buttons {
@@ -107,9 +107,10 @@
     .message {
         display: none;
         font-size: 24px;
-        color: #fff; /* White text color */
+        color: #E3319D; /* White text color */
         margin-top: 20px;
         animation: fadeIn 0.5s; /* Add animation to the message */
+         border: 1px solid #000;
     }
 
     /* Loading animation */
@@ -125,7 +126,6 @@
         align-items: center;
         animation: fadeOut 2s; /* Add animation to the loading animation */
     }
-</style>
     </style>
 </head>
 <body>
@@ -136,7 +136,7 @@
         <div class="heart"></div>
     </div>
     <div class="proposal-container">
-        <h1>HAPPY BIRTHDAY</h1>
+        <h1>HAPPY BIRTHDAY MS_DEEKSHITHA🦋</h1>
         <h1>I WANT TO SAY SOMETHING TO YOU</h1>
         <h1>FROM THE FIRST DAY WHEN I SAW YOU. 😊</h1>
         <div class="buttons">
