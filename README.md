@@ -114,7 +114,7 @@
         </div>
 
         <!-- Hidden Smiling Cat -->
-        <img src="smiling-cat.jpg" alt="Smiling cat" class="smiling-cat" id="smilingCat">
+        <img src="https://github.com/mrvlegend/mrvlegend/blob/main/download.jpeg?raw=true" alt="Smiling cat" class="smiling-cat" id="smilingCat">
     </div>
 
     <script>
