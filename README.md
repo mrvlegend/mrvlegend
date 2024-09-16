@@ -17,16 +17,29 @@
         .proposal-container {
             text-align: center;
             background-image: url('https://github.com/mrvlegend/mrvlegend/blob/a152ec409cc1b1afd745c4923f52d33ec9e55487/IMG-20230703-WA0018.jpg?raw=true'); /* Add a background image */
-            background-size: cover;
+            background-size:cover;
             padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            /* Creative border */
-            border: 5px solid #ff66b2; /* Pink border */
-            border-image-source: linear-gradient(to bottom, #ff66b2, #ff3399);
-            border-image-slice: 1;
-            position: relative;
-            overflow: hidden;
+            padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Animated border */
+    border: 5px solid rgb(255, 102, 178); /* Initial pink border */
+    position: relative;
+    overflow: hidden;
+    animation: border-color-change 2s infinite; /* Animation duration: 2 seconds, infinite loop */
+}
+
+@keyframes border-color-change {
+    0% {
+        border-color: rgb(255, 102, 178); /* Pink */
+    }
+    50% {
+        border-color: rgb(0, 255, 0); /* Green */
+    }
+    100% {
+        border-color: rgb(255, 0, 0); /* Red */
+    }
+}
         }
         h1 {
             font-size: 48px;
