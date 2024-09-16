@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,74 +14,73 @@
             justify-content: center;
             align-items: center;
             font-family: 'Poppins', sans-serif;
-             background-color: #000; /* Black background */
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.heart-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.heart {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background-color: #00f; /* Blue color */
-    transform: rotate(45deg);
-    animation: fall 2s infinite;
-}
-
-@keyframes fall {
-    0% {
-        top: -50px;
-    }
-    100% {
-        top: 100vh;
-    }
+            background-color: #000; /* Black background */
         }
+
+        .heart-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .heart {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #00f; /* Blue color */
+            transform: rotate(45deg);
+            animation: fall 2s infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                top: -50px;
+            }
+            100% {
+                top: 100vh;
+            }
+        }
+
         .proposal-container {
             text-align: center;
             background-image: url('https://github.com/mrvlegend/mrvlegend/blob/a152ec409cc1b1afd745c4923f52d33ec9e55487/IMG-20230703-WA0018.jpg?raw=true'); /* Add a background image */
-            background-size:cover;
+            background-size: cover;
             padding: 40px;
-            padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    /* Animated border */
-    border: 5px solid rgb(255, 102, 178); /* Initial pink border */
-    position: relative;
-    overflow: hidden;
-    animation: border-color-change 2s infinite; /* Animation duration: 2 seconds, infinite loop */
-}
-
-@keyframes border-color-change {
-    0% {
-        border-color: rgb(255, 102, 178); /* Pink */
-    }
-    50% {
-        border-color: rgb(0, 255, 0); /* Green */
-    }
-    100% {
-        border-color: rgb(255, 0, 0); /* Red */
-    }
-}
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            /* Animated border */
+            border: 5px solid rgb(255, 102, 178); /* Initial pink border */
+            position: relative;
+            overflow: hidden;
+            animation: border-color-change 2s infinite; /* Animation duration: 2 seconds, infinite loop */
         }
+
+        @keyframes border-color-change {
+            0% {
+                border-color: rgb(255, 102, 178); /* Pink */
+            }
+            50% {
+                border-color: rgb(0, 255, 0); /* Green */
+            }
+            100% {
+                border-color: rgb(255, 0, 0); /* Red */
+            }
+        }
+
         h1 {
             font-size: 48px;
             font-family: 'Playfair Display', serif; /* Use a serif font for headings */
-            color: #ff3399;
+            color: #fff; /* White text color */
             margin-bottom: 20px;
         }
+
         .buttons {
             margin-top: 30px;
         }
+
         button {
             font-size: 18px;
             padding: 10px 20px;
@@ -90,18 +90,22 @@
             cursor: pointer;
             transition: background-color 0.3s;
         }
+
         .yes-button {
             background-color: #ff66b2;
-            color: white;
+            color: #fff; /* White text color */
         }
+
         .yes-button:hover {
             background-color: #ff3399;
         }
+
         .no-button {
             background-color: #ff9999;
-            color: white;
+            color: #fff; /* White text color */
             position: relative;
         }
+
         .no-button:hover {
             background-color: #ff6666;
         }
@@ -119,7 +123,7 @@
         .message {
             display: none;
             font-size: 24px;
-            color: #ff3399;
+            color: #fff; /* White text color */
             margin-top: 20px;
             animation: fadeIn 0.5s; /* Add animation to the message */
         }
@@ -142,6 +146,9 @@
 <body>
     <div class="loading">
         <img src="loading.gif" alt="Loading animation">
+    </div>
+    <div class="heart-container">
+        <div class="heart"></div>
     </div>
     <div class="proposal-container">
         <h1>HAPPY BIRTHDAY</h1>
@@ -191,3 +198,4 @@
         }, 2000);
     </script>
 </body>
+</html>
