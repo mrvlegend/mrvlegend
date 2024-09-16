@@ -59,6 +59,8 @@
             font-family: 'Playfair Display', serif; /* Use a serif font for headings */
             color: #fff; /* White text color */
             margin-bottom: 20px;
+            opacity: 100%;
+
         }
 
         .buttons {
