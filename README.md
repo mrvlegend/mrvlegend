@@ -16,34 +16,6 @@
             font-family: 'Poppins', sans-serif;
             background-color: #000; /* Black background */
         }
-
-        .heart-container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .heart {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            background-color: #00f; /* Blue color */
-            transform: rotate(45deg);
-            animation: fall 2s infinite;
-        }
-
-        @keyframes fall {
-            0% {
-                top: -50px;
-            }
-            100% {
-                top: 100vh;
-            }
-        }
-
         .proposal-container {
             text-align: center;
             background-image: url('https://github.com/mrvlegend/mrvlegend/blob/a152ec409cc1b1afd745c4923f52d33ec9e55487/IMG-20230703-WA0018.jpg?raw=true'); /* Add a background image */
