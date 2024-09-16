@@ -32,7 +32,6 @@
             background-image: url('https://github.com/mrvlegend/mrvlegend/blob/a152ec409cc1b1afd745c4923f52d33ec9e55487/IMG-20230703-WA0018.jpg?raw=true'); /* Add a background image */
             background-size: cover;
             padding: 40px;
-             opacity: 0.5;
             border-radius: 20px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
             /* Animated border */
@@ -41,92 +40,92 @@
             overflow: hidden;
             animation: border-color-change 2s infinite; /* Animation duration: 2 seconds, infinite loop */
         }
-
-        @keyframes border-color-change {
-            0% {
-                border-color: rgb(255, 102, 178); /* Pink */
-            }
-            50% {
-                border-color: rgb(0, 255, 0); /* Green */
-            }
-            100% {
-                border-color: rgb(255, 0, 0); /* Red */
-            }
+ @keyframes border-color-change {
+        0% {
+            border-color: rgb(255, 102, 178); /* Pink */
         }
-
-        h1 {
-            font-size: 48px;
-            font-family: 'Playfair Display', serif; /* Use a serif font for headings */
-            color: #fff; /* White text color */
-            margin-bottom: 20px;
-            opacity: 100%;
-
+        50% {
+            border-color: rgb(0, 255, 0); /* Green */
         }
-
-        .buttons {
-            margin-top: 30px;
+        100% {
+            border-color: rgb(255, 0, 0); /* Red */
         }
+    }
 
-        button {
-            font-size: 18px;
-            padding: 10px 20px;
-            margin: 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
+    h1 {
+        font-size: 48px;
+        font-family: 'Playfair Display', serif; /* Use a serif font for headings */
+        color: #fff; /* White text color */
+        margin-bottom: 20px;
+        opacity: 100%;
 
-        .yes-button {
-            background-color: #ff66b2;
-            color: #fff; /* White text color */
-        }
+    }
 
-        .yes-button:hover {
-            background-color: #ff3399;
-        }
+    .buttons {
+        margin-top: 30px;
+    }
 
-        .no-button {
-            background-color: #ff9999;
-            color: #fff; /* White text color */
-            position: relative;
-        }
+    button {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
 
-        .no-button:hover {
-            background-color: #ff6666;
-        }
+    .yes-button {
+        background-color: #ff66b2;
+        color: #fff; /* White text color */
+    }
 
-        /* Hidden smiling cat that appears after "Yes" */
-        .smiling-cat {
-            display: none;
-            width: 200px;
-            height: auto;
-            margin-top: 20px;
-            animation: fadeIn 0.5s; /* Add animation to the smiling cat */
-        }
+    .yes-button:hover {
+        background-color: #ff3399;
+    }
 
-        /* Hidden text message */
-        .message {
-            display: none;
-            font-size: 24px;
-            color: #fff; /* White text color */
-            margin-top: 20px;
-            animation: fadeIn 0.5s; /* Add animation to the message */
-        }
+    .no-button {
+        background-color: #ff9999;
+        color: #fff; /* White text color */
+        position: relative;
+    }
 
-        /* Loading animation */
-        .loading {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            background-color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            animation: fadeOut 2s; /* Add animation to the loading animation */
-        }
+    .no-button:hover {
+        background-color: #ff6666;
+    }
+
+    /* Hidden smiling cat that appears after "Yes" */
+    .smiling-cat {
+        display: none;
+        width: 200px;
+        height: auto;
+        margin-top: 20px;
+        animation: fadeIn 0.5s; /* Add animation to the smiling cat */
+    }
+
+    /* Hidden text message */
+    .message {
+        display: none;
+        font-size: 24px;
+        color: #fff; /* White text color */
+        margin-top: 20px;
+        animation: fadeIn 0.5s; /* Add animation to the message */
+    }
+
+    /* Loading animation */
+    .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: fadeOut 2s; /* Add animation to the loading animation */
+    }
+</style>
     </style>
 </head>
 <body>
