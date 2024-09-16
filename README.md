@@ -13,6 +13,37 @@
             justify-content: center;
             align-items: center;
             font-family: 'Poppins', sans-serif;
+             background-color: #000; /* Black background */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.heart-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #00f; /* Blue color */
+    transform: rotate(45deg);
+    animation: fall 2s infinite;
+}
+
+@keyframes fall {
+    0% {
+        top: -50px;
+    }
+    100% {
+        top: 100vh;
+    }
         }
         .proposal-container {
             text-align: center;
