@@ -38,7 +38,7 @@
             position: relative;
             overflow: hidden;
             animation: border-color-change 2s infinite; /* Animation duration: 2 seconds, infinite loop */
-            text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+            text-shadow: -2px -2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF, 2px 2px 0 #FFF;
         }
         @keyframes border-color-change {
             0% {
@@ -146,7 +146,9 @@
 
         <!-- Hidden Text Message -->
         <div class="message" id="message">
-            From the first time I saw you, I felt a strong connection and love for you. ❤️ I still feel the same way now. 💖 I’m sorry if I ever seemed distant or if I didn’t communicate well. 😔 Sometimes, when I’m with you, I get so overwhelmed by my feelings that I forget to say what’s on my mind. 😅 Please don't take it deeply and I’m sorry if my actions didn’t always show that. 🌹💕 I LOVED YOU FROM THE BOTTOM OF MY HEART 💖🐱
+            From the first time I saw you, I felt a strong connection and love for you. ❤️ I still feel the same way now. 💖 I’m sorry if I ever seemed distant or if I didn’t communicate well. 😔 Sometimes, when I’m with you, I get so overwhelmed by my feelings that I forget to say what’s on my mind. 😅 Please don't take it deeply and I’m sorry if my actions didn’t always show that. 🌹💕 I LOVED YOU FROM THE BOTTOM OF MY HEART FROM PAST 7 years. 💖🐱
+            <h6>༗🪈ॐ नमो भगवतेवासुदेवाय नमः★ ॐ</h6>
+
         </div>
 
         <!-- Hidden Smiling Cat -->
