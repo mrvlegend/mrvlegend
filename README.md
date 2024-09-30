@@ -146,7 +146,7 @@
 
         <!-- Hidden Text Message -->
         <div class="message" id="message">
-            From the first time I saw you, I felt a strong connection and love for you. ❤️ I still feel the same way now. 💖 I’m sorry if I ever seemed distant or if I didn’t communicate well. 😔 Sometimes, when I’m with you, I get so overwhelmed by my feelings that I forget to say what’s on my mind. 😅 Please don't take it deeply and I’m sorry if my actions didn’t always show that. 🌹💕 I LOVED YOU FROM THE BOTTOM OF MY HEART FROM PAST 7 YEARS. 😓💖🐱
+            Deekshitha sorry if any of my words or message made you sad or angry  u sorry 😞 i just want to say is in my mind .. sorry and I will never disturb you..😞😞😞
     <h6>༗ॐ नमो भगवतेवासुदेवाय नमः</h6>
 
         </div>
