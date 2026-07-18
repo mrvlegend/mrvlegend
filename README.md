@@ -21,17 +21,25 @@
   />
 </picture>
 
+## 💻 Contact.sh
 
-## 💼 Professional Profile
+```bash
+$ whoami
+Vijeth B K
 
-```cpp
-class VijethBK {
-public:
-    string role = "Embedded Systems Engineer";
-    string interests = "AI | IoT | STM32 | Raspberry Pi";
-    string location = "India";
+$ role
+ Engineer 
 
-    void connect() {
-        cout << "LinkedIn: https://www.linkedin.com/in/vijeth-b-k-a31768294";
-    }
-};
+$ skills
+STM32
+Raspberry Pi
+IoT
+Linux
+Embedded Systems
+
+$ linkedin
+https://www.linkedin.com/in/vijeth-b-k-a31768294
+
+$ status
+Available for collaboration 🚀
+```
