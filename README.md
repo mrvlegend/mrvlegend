@@ -21,25 +21,38 @@
   />
 </picture>
 
-## 💻 Contact.sh
+<h2 align="center">💻 Contact.sh</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/vijeth-b-k-a31768294">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Let's+Connect!;Embedded+Systems+Engineer;AI+%7C+IoT+%7C+STM32+%7C+Linux;Always+Learning+New+Technologies+🚀" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/vijeth-b-k-a31768294">
+    <img src="https://img.shields.io/badge/LinkedIn-Vijeth_B_K-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
 
 ```bash
 $ whoami
-Vijeth B K
+👨‍💻 Vijeth B K
 
 $ role
- Engineer 
+🚀 Embedded Systems Engineer
 
 $ skills
-STM32
-Raspberry Pi
-IoT
-Linux
-Embedded Systems
+⚡ STM32
+🍓 Raspberry Pi
+🌐 IoT
+🐧 Linux
+🔌 Embedded Systems
+🤖 AI
 
 $ linkedin
-https://www.linkedin.com/in/vijeth-b-k-a31768294
+🔗 https://www.linkedin.com/in/vijeth-b-k-a31768294
 
 $ status
-Available for collaboration 🚀
+🟢 Available for Collaboration 🚀
 ```
