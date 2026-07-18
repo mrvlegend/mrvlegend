@@ -25,7 +25,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vijeth-b-k-a31768294">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Let's+Connect!;Embedded+Systems+Engineer;IoT+%7C+STM32+%7C+Linux;Always+Learning+New+Technologies+🚀" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Let's+Connect!;Embedded+Systems;IoT+%7C+STM32+%7C+Linux;Always+Learning+New+Technologies+🚀" />
   </a>
 </p>
 
