@@ -22,3 +22,16 @@
 </picture>
 
 
+## 💼 Professional Profile
+
+```cpp
+class VijethBK {
+public:
+    string role = "Embedded Systems Engineer";
+    string interests = "AI | IoT | STM32 | Raspberry Pi";
+    string location = "India";
+
+    void connect() {
+        cout << "LinkedIn: https://www.linkedin.com/in/vijeth-b-k-a31768294";
+    }
+};
