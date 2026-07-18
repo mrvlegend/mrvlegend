@@ -1,3 +1,12 @@
+![Embedded Systems](https://img.shields.io/badge/Embedded-Systems-blue?style=for-the-badge&logo=microchip&logoColor=white)
+
+![IoT](https://img.shields.io/badge/Internet%20of%20Things-IoT-green?style=for-the-badge&logo=raspberrypi&logoColor=white)
+
+![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 
 
