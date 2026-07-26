@@ -5,21 +5,243 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
-  />
-</picture>
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#020617"/>
+<stop offset="100%" stop-color="#0f172a"/>
+</linearGradient>
+
+<linearGradient id="trace">
+<stop offset="0%" stop-color="#00ffff"/>
+<stop offset="100%" stop-color="#00ff88"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+<feMerge>
+<feMergeNode in="coloredBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1200" height="420" fill="url(#bg)"/>
+
+<!-- Grid -->
+
+<g opacity=".08">
+<path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200M0 280H1200M0 320H1200M0 360H1200"/>
+<path d="M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420M800 0V420M900 0V420M1000 0V420M1100 0V420"/>
+</g>
+
+<!-- Title -->
+
+<text x="600"
+      y="60"
+      text-anchor="middle"
+      font-size="34"
+      fill="#00ffff"
+      font-family="Consolas"
+      filter="url(#glow)">
+VIJETH B K
+</text>
+
+<text x="600"
+      y="95"
+      text-anchor="middle"
+      font-size="18"
+      fill="#94a3b8"
+      font-family="Consolas">
+
+Embedded Systems • STM32 • Raspberry Pi • AI • IoT
+
+</text>
+
+<!-- STM32 -->
+
+<rect x="60"
+      y="160"
+      rx="15"
+      width="170"
+      height="90"
+      fill="#111827"
+      stroke="#00ffff"
+      stroke-width="3"/>
+
+<text x="145"
+      y="210"
+      fill="white"
+      font-size="24"
+      text-anchor="middle"
+      font-family="Consolas">
+
+STM32
+
+</text>
+
+<!-- ESP32 -->
+
+<rect x="320"
+      y="160"
+      rx="15"
+      width="170"
+      height="90"
+      fill="#111827"
+      stroke="#00ff88"
+      stroke-width="3"/>
+
+<text x="405"
+      y="210"
+      fill="white"
+      font-size="24"
+      text-anchor="middle"
+      font-family="Consolas">
+
+ESP32
+
+</text>
+
+<!-- Raspberry Pi -->
+
+<rect x="580"
+      y="160"
+      rx="15"
+      width="190"
+      height="90"
+      fill="#111827"
+      stroke="#00ffff"
+      stroke-width="3"/>
+
+<text x="675"
+      y="210"
+      fill="white"
+      font-size="24"
+      text-anchor="middle"
+      font-family="Consolas">
+
+Raspberry Pi
+
+</text>
+
+<!-- AI -->
+
+<rect x="870"
+      y="160"
+      rx="15"
+      width="140"
+      height="90"
+      fill="#111827"
+      stroke="#00ff88"
+      stroke-width="3"/>
+
+<text x="940"
+      y="210"
+      fill="white"
+      font-size="24"
+      text-anchor="middle"
+      font-family="Consolas">
+
+AI
+
+</text>
+
+<!-- Cloud -->
+
+<text x="1110"
+      y="215"
+      font-size="50">
+☁
+</text>
+
+<!-- Lines -->
+
+<line x1="230" y1="205" x2="320" y2="205" stroke="url(#trace)" stroke-width="4"/>
+
+<line x1="490" y1="205" x2="580" y2="205" stroke="url(#trace)" stroke-width="4"/>
+
+<line x1="770" y1="205" x2="870" y2="205" stroke="url(#trace)" stroke-width="4"/>
+
+<line x1="1010" y1="205" x2="1080" y2="205" stroke="url(#trace)" stroke-width="4"/>
+
+<!-- Animated Data Packet -->
+
+<circle r="7" fill="#00ffff">
+
+<animateMotion
+dur="2s"
+repeatCount="indefinite"
+path="M230 205 L1080 205"/>
+
+</circle>
+
+<!-- LEDs -->
+
+<circle cx="85" cy="145" r="6" fill="#00ff00">
+
+<animate attributeName="opacity"
+values="1;.2;1"
+dur="1s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="345" cy="145" r="6" fill="#00ffff">
+
+<animate attributeName="opacity"
+values="1;.2;1"
+dur="1.2s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="605" cy="145" r="6" fill="#00ff00">
+
+<animate attributeName="opacity"
+values="1;.2;1"
+dur="1.4s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="895" cy="145" r="6" fill="#00ffff">
+
+<animate attributeName="opacity"
+values="1;.2;1"
+dur="1.1s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Terminal -->
+
+<rect x="150"
+      y="310"
+      width="900"
+      height="70"
+      rx="12"
+      fill="#000000"
+      opacity=".65"
+      stroke="#00ffff"/>
+
+<text x="180"
+      y="350"
+      fill="#00ff88"
+      font-family="Consolas"
+      font-size="18">
+
+$ Boot Complete...
+System Status : ONLINE ●
+Ready for Deployment 🚀
+
+</text>
+
+</svg>
 
 <h2 align="center">💻 Contact.sh</h2>
 
